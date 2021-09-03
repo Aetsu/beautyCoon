@@ -17,7 +17,7 @@ The output file will appear in the folder where the original *.nessus* file with
 * * *
 
 ## Examples
-- As an example I used the .nessus file located in the [sdnips/ACNS_FinalProject_Code/Scan_Vul.nessus](http://gitlab.thothlab.org/ASU/sdnips/blob/master/ACNS_FinalProject_Code/Scan_Vul.nessus) repository:
+- As an example I used the .nessus file located in the [sdnips/ACNS_FinalProject_Code/Scan_Vul.nessus](https://gitlab.thothlab.org/ASU/sdnips/-/raw/master/ACNS_FinalProject_Code/Scan_Vul.nessus) repository:
 ![](example/img_01.png)
 ![](example/img_02.png)
 ![](example/img_03.png)
