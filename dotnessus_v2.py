@@ -311,8 +311,8 @@ class ReportItem(object):
 		for m in MULTI_VALUED_ATTS:
 			setattr(self, m, list())
 
-		# Get optional nodes
-		for n in xml_report_item.getchildren():
+		for n in list(xml_report_item): #Descomentar para despliegue en producción y comentar la siguiente linea
+		#for n in xml_report_item.getchildren():
 			# If it's a multi-valued att, append to list
 			if n.tag in MULTI_VALUED_ATTS:
 				v = getattr(self, n.tag)
@@ -334,5 +334,3 @@ class ReportItem(object):
 			return getattr(self, attr)
 		except AttributeError:
 			return None
-
-
